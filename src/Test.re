@@ -19,7 +19,12 @@ signal->AbortSignal.addEventListener("abort", () => {
   Js.log("Aborted as well");
 });
 
+
+Js.log(AbortSignal.aborted(signal));
+
 /**
  * Abort the controller
  */
 AbortController.abort(controller);
+
+Js.log(AbortSignal.aborted(signal));
