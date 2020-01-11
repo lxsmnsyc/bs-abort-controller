@@ -15,9 +15,21 @@ yarn
 yarn add bs-abort-controller-2
 ```
 
+After installing, add it to the dependencies
+
+bsconfig.json
+```json
+{
+  "bs-dependencies": [
+    "bs-abort-controller",
+  ],
+}
+
 ## Usage
 
 ```reason
+open BsAbortController;
+
 /**
  * Create an AbortController
  */
