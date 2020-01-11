@@ -24,6 +24,7 @@ bsconfig.json
     "bs-abort-controller",
   ],
 }
+```
 
 ## Usage
 
