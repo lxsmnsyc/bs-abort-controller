@@ -17,7 +17,11 @@ signal.addEventListener("abort", (function (param) {
         return /* () */0;
       }));
 
+console.log(signal.aborted);
+
 controller.abort();
+
+console.log(signal.aborted);
 
 exports.controller = controller;
 exports.signal = signal;
